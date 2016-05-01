@@ -1,27 +1,39 @@
-div{
-	background: #4aaaa5;
-	color: #777777;
-}
 body{
-	te
+	background-image: ;
+	font-family:'Georgia', Times, Times New Roman, serif;
+	color:#ffffff;
 }
+
 header{
-	background:#ffffff;
-	font-family: "Times New Roman", Times, serif;
-}
-.box{
 	background:#4aaaa5;
+	border-color:#cccccc;
+	z-index: 0;
+	float:left;
 }
-.links{
-	float:right;
-}
-#footer{
+footer{
 	background: #666666;
 	clear:both;
+	text-align: center;
 }
+
+.links{
+	float:right;
+	background: #666;
+	z-index: 1;
+}
+
 .icons{
 	float:right;
 }
 .about{
 	float:left;
 }
+
+#message{
+	width:"40";
+	height:"40";
+}
+#id{
+	background:#ffffff;
+}
+.i
