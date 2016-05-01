@@ -1,3 +1,27 @@
+div{
+	background: #4aaaa5;
+	color: #777777;
+}
 body{
-	background: blue;
+	te
+}
+header{
+	background:#ffffff;
+	font-family: "Times New Roman", Times, serif;
+}
+.box{
+	background:#4aaaa5;
+}
+.links{
+	float:right;
+}
+#footer{
+	background: #666666;
+	clear:both;
+}
+.icons{
+	float:right;
+}
+.about{
+	float:left;
 }
