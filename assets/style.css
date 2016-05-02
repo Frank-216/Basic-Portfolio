@@ -3,21 +3,12 @@ div{
 	font-family:'Georgia', Times, Times New Roman, serif;
 	color:#777777;
 }
-
 header{
 	position: fixed;
 	left: 50px;
 	padding: 5px;
 }
-img{
 
-	width: 80px;
-	height: 80px;
-	border:0;
-}
-h2{
-	color:#ffffff;
-}
 footer{
 	position:fixed;
 	background: #666666;
@@ -27,7 +18,6 @@ footer{
 	width:100%;
 	bottom: 0;
 	border-top: 10px solid #4aaaa5;
-
 }
 a{
 	color: #666666;
@@ -38,18 +28,21 @@ h2{
 }
 .Header{
 	float:left;
+	position:relative;
 	height:100px;
 	background:#ffffff;
 	color: #ffffff;	
 	margin-bottom:10px;
 	width:100%;
-	border-bottom: 4px solid #cccccc;
-	top:50px;
+	border-bottom: 1px solid #cccccc;
+	top:5px;
+	text-align: center;
 }
 #name{
 	background:#4aaaa5;
 	width: 27%;
-	position:relative;
+	position:absolute;
+	bottom:0;
 	left:50px;
 	top:10px;
 }
@@ -62,50 +55,56 @@ h2{
 .Main-body{
 	clear:both;
 	position:relative;
-	top: 150px;
+	top: 15px;
 	}
 .icons{
+	color:#4aaaa5;
 	float:right;
-	position:relative;
+	position:absolute;
 	text-align: center;
-	right:100px;
+	right:75px;
 	background: #ffffff;
-	border: 5px solid ;
+	border: 1px solid ;
 	border-color: #dddddd;
-	height: 100px;
-	width: 250px;
+	height: 75px;
+	width: 220px;
 	padding: 5px;
 	padding-bottom: 70px;
 	padding-top: 0;
 }
-.about{
+.container{
 	background:#ffffff;
-	border: 5px #dddddd solid;
-	width: 500px;
-	height:500px;
+	border: 1px #dddddd solid;
+	position:relative;
+	left:20px;
+	width: 600px;
+	height:520px;
 	margin: 10px;
 	padding:10px;
-	text-align: left;
+	text-align:left;
+}/* container for About & Contact */
+.portfolio{
+	background:#ffffff;
+	border: 1px #dddddd solid;
+	position:relative;
+	left:20px;
+	width: 500px;
+	height:720px;
+	margin: 10px;
+	padding:20px;
+	text-align:left;
 }
 .paragraph{
 	border-top:2px;
-	border-top: solid;
+	float:left;
+
 }
 .line{
 	border: 1px #dddddd solid;
 	margin-bottom:10px;
+	width:cal(50%);
 }
-.contact{
-	background:#ffffff;
-	border: 5px #dddddd solid;
-	position:relative;
-	left:20px;
-	width: 500px;
-	height:500px;
-	margin: 10px;
-	padding:20px;
-	text-align: left;
-}
+
 .input{
 	width: calc(100%);
     margin:0;
@@ -121,3 +120,24 @@ h2{
     height:200px;
     float:left;
 }
+.projects{
+	float:left;
+	position: relative;
+	height: 160px;
+	width: 180px;
+	background-color:red;
+	margin: 20px;
+}
+.project_name{
+	position:absolute;
+	width:100%;
+	bottom:10px;
+	background-color: #4aaaa5;;
+	text-align: center;
+	font-style:normal;
+	color:#ffffff;
+
+}
+
+
+
