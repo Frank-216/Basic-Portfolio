@@ -58,7 +58,6 @@ h2{
 	left:50px;
 	top:10px;
 }
-
 .links{
 	position: absolute;
 	background:#ffffff;
@@ -78,13 +77,13 @@ h2{
 	height: 75px;
 	width: 275px;
 	padding: 5px;
-	padding-bottom: 70px;
+	padding-bottom: 75px;
 	padding-top: 0;
 }
 .icons img{
-	height:60px;
-	width:60px;
-	padding:5px;
+	height:63px;
+	width:63px;
+	padding: 5px;
 }
 .Main-body{
 	clear:both;
@@ -120,7 +119,6 @@ h2{
 	margin-bottom:10px;
 	width:cal(50%);
 }
-
 .input{
 	width: calc(100%);
     margin:0;
