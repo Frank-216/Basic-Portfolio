@@ -1,9 +1,9 @@
-div{
+body{
 	background-image: url("../images/weather.png");
 	font-family:'Georgia', Times, Times New Roman, serif;
 	color:#777777;
-
 	position: relative;
+	width:960px;
 }
 header{
 	position: absolute;
@@ -18,12 +18,14 @@ footer{
 	text-align: center;
 	height: 70px;
 	width:100%;
-	bottom: 0;
+	bottom: 0px;
 	border-top: 10px solid #4aaaa5;
 }
 footer p{
 	position: absolute;
-	bottom:-40px;
+	bottom: 0;
+	right: 50px;
+	left: 50px;
 }
 a{
 	color: #666666;
@@ -35,76 +37,83 @@ h2{
 .Header{
 	float:left;
 	position:relative;
-	height:100px;
+	height:75px;
 	background:#ffffff;
 	color: #ffffff;	
 	width:100%;
-	border-bottom: 1px solid #cccccc;
-	top:5px;
+	border-bottom: 2px solid #cccccc;
+	margin:10px #cccccc;
+	margin-top: -12px;
+	margin-left: -12px;
+	top:4px;
 	text-align: center;
 }
-#name{
+.name{
 	background:#4aaaa5;
-	width: 27%;
+	width: 300px;
+	color:#ffffff;
 	position:absolute;
-	bottom:0;
+	padding-top: -20px;
+	bottom:0px;
 	left:50px;
 	top:10px;
 }
+
 .links{
 	position: absolute;
 	background:#ffffff;
-	right:40px;
-	top:45px;
-	text-align:center;}
-.Main-body{
-	clear:both;
-	position:relative;
-	top: 10px;
-	padding-top: 50px;
-	padding-bottom: 200px;
-	}
+	right:10px;
+	top:27px;
+	text-align:center;
+}
 .icons{
 	color:#4aaaa5;
 	float:right;
 	position:absolute;
 	text-align: center;
-	right:75px;
+	right:0px;
 	background: #ffffff;
 	border: 1px solid ;
 	border-color: #dddddd;
 	height: 75px;
-	width: 220px;
+	width: 275px;
 	padding: 5px;
 	padding-bottom: 70px;
 	padding-top: 0;
 }
+.icons img{
+	height:60px;
+	width:60px;
+	padding:5px;
+}
+.Main-body{
+	clear:both;
+	position:relative;
+	top: 8px;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 200px;
+	}
 .container{
 	background:#ffffff;
 	border: 1px #dddddd solid;
 	position:relative;
-	left:20px;
+	left:10px;
 	width: 600px;
 	height:520px;
 	margin: 10px;
 	padding:10px;
 	text-align:left;
 }/* container for About & Contact */
-.portfolio{
-	background:#ffffff;
-	border: 1px #dddddd solid;
-	position:relative;
-	left:20px;
-	width: 500px;
-	height:720px;
-	margin: 10px;
-	padding:20px;
-	text-align:left;
+.container img{
+	height: 200px;
+	width:200px;
+	float:left;
 }
 .paragraph{
+	border: 10px;
 	border-top:2px;
-	float:left;
-
+	right:10px;
 }
 .line{
 	border: 1px #dddddd solid;
@@ -143,7 +152,6 @@ h2{
 	text-align: center;
 	font-style:normal;
 	color:#ffffff;
-
 }
 
 
