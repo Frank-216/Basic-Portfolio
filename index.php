@@ -1,1 +1,1 @@
-<?php include_once(“inxex.html”): ?>
+<?php include_once(“index.html”): ?>
