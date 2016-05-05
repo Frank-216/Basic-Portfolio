@@ -2,11 +2,14 @@ body{
 	background-image: url("../images/weather.png");
 	font-family:'Georgia', Times, Times New Roman, serif;
 	color:#777777;
-	position: relative;
+	position: relative;	
+	height:1000px;
+}
+.banner{
+	width:100%
+	background:#ffffff;
 
 }
-
-
 footer{
 	position: absolute;
 	background: #666666;
@@ -19,7 +22,7 @@ footer{
 }
 footer p{
 	position: absolute;
-	bottom: 0;
+	bottom: 10px;
 	right: 50px;
 	left: 50px;
 }
@@ -30,85 +33,109 @@ h2{
 	color:#4aaaa5;
 	margin: 10 auto;
 }
-.wrapper{
-	width:960px;
-	margin: 0 auto;
+.banner{
+
 }
 .Header{
-	float:left;
 	position:relative;
-	height:75px;
+	height:65px;
 	background:#ffffff;
 	color: #ffffff;	
 	width:100%;
 	border-bottom: 2px solid #cccccc;
-	margin:10px #cccccc;
-	margin-top: -12px;
-	margin-left: -12px;
+	margin:0 auto;
 	top:4px;
 	text-align: center;
 }
 .name{
 	background:#4aaaa5;
 	width: 300px;
+	height:100%;
 	color:#ffffff;
 	position:absolute;
-	padding-top: -20px;
 	bottom:0px;
-	left:50px;
-	top:10px;
+	left:30px;
 }
 .links{
 	position: absolute;
 	background:#ffffff;
-	right:10px;
-	top:27px;
+	right:30px;
+	top:20px;
 	text-align:center;
 }
+
+.Main-body{
+	clear:both;
+	position:relative;
+	top: 0px;
+	width: 960px;
+	height:560px;
+	padding-top: 50px;
+	padding-bottom:60px;
+	margin: 0 auto;
+	}
 .icons{
 	color:#4aaaa5;
+	height: 200px;
+	width: 268px;
 	float:right;
 	position:absolute;
 	text-align: center;
 	right:0px;
+	top:40px;
 	background: #ffffff;
-	border: 1px solid ;
-	border-color: #dddddd;
-	height: 75px;
-	width: 275px;
-	padding: 5px;
-	padding-bottom: 75px;
-	padding-top: 0;
-	margin-right:20px;
+	border: 1px solid #dddddd;
 }
-.icons img{
-	height:63px;
-	width:63px;
+.box{
+	position:absolute;
+	bottom:35px;
+	right:25px;
+}
+.box img{
+	height:65px;
+	width:65px;
 	padding: 5px;
 }
-.Main-body{
-	clear:both;
-	position:relative;
-	top: 8px;
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 200px;
-	}
-.container{
+.container-about{
 	background:#ffffff;
 	border: 1px #dddddd solid;
-	position:relative;
-	left:10px;
+	position: absolute;
 	width: 600px;
-	height:520px;
-	margin: -10px;
-	padding:10px;
+	height:472px;
+	padding-right: 0;
+	left:0;
 	text-align:left;
-}/* container for About & Contact */
-.container img{
+}/* container for About &  */
+.
+.container-about img{
 	height: 200px;
 	width:200px;
 	float:left;
+	padding-left: 60px;
+}
+.container-contact{
+	background:#ffffff;
+	border: 1px #dddddd solid;
+	position:relative;
+	left:30px;
+	width: 550px;
+	height:472px;
+	margin: -10px;
+	padding:10px;
+	text-align:left;
+}
+.container-portfolio{
+	background:#ffffff;
+	border: 1px #dddddd solid;
+	position:relative;
+	left:0px;
+	width: 575px;
+	height:602px;
+	margin: -10px;
+	text-align:left;
+}
+.h2{
+	padding-left:30px;
 }
 .paragraph{
 	border: 10px;
@@ -120,10 +147,14 @@ h2{
 	margin-bottom:10px;
 	width:cal(50%);
 }
+.form{
+	width: 500px;
+	padding-left: 30px;
+	padding right: 0px;
+}
 .input{
 	width: calc(100%);
     margin:0;
-    padding:0;
     height:30px;
     float:left;
 }
@@ -138,22 +169,30 @@ h2{
 .projects{
 	float:left;
 	position: relative;
-	height: 150px;
-	width: 180px;
+	height: 140px;
+	width: 215px;
 	margin: 20px;
+	left:10px;
+	m
 }
 .projects img{
-	width:100%;
+	position:absolute;
+	width:215px;
+	height:140px;
 }
 .project_name{
 	position:absolute;
 	width:100%;
-	bottom:10px;
+	height:30px;
+	left:0;
+	bottom:5px;
 	background-color: #4aaaa5;;
 	text-align: center;
-	font-style:normal;
+	font-weight:normal;
 	color:#ffffff;
+	margin:0;
 }
+
 
 
 
