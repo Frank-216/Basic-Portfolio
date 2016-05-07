@@ -5,11 +5,6 @@ body{
 	position: relative;	
 	height:1000px;
 }
-.banner{
-	width:100%
-	background:#ffffff;
-
-}
 footer{
 	position: absolute;
 	background: #666666;
@@ -26,14 +21,15 @@ footer p{
 	right: 50px;
 	left: 50px;
 }
+
 a{
 	color: #666666;
 }
+
 h2{
 	color:#4aaaa5;
 	margin: 10 auto;
 }
-
 .Header{
 	position:relative;
 	height:65px;
@@ -41,8 +37,9 @@ h2{
 	color: #ffffff;	
 	width:100%;
 	border-bottom: 2px solid #cccccc;
+	border-top:1000px;
 	margin:0 auto;
-	top:4px;
+	top:0px;
 	text-align: center;
 }
 .name{
@@ -71,7 +68,7 @@ h2{
 	padding-top: 50px;
 	padding-bottom:60px;
 	margin: 0 auto;
-	}
+}
 .icons{
 	color:#4aaaa5;
 	height: 200px;
@@ -98,19 +95,31 @@ h2{
 	background:#ffffff;
 	border: 1px #dddddd solid;
 	position: absolute;
-	width: 600px;
-	height:472px;
+	width: 620px;
+	height:672px;
 	padding-right: 0;
 	left:0;
 	text-align:left;
 }/* container for About &  */
-.
-#image-me{
+.me{
 	height: 200px;
 	width:200px;
 	float:left;
-	position: absolute;
-	left:100px;
+	padding-left: 20px;
+	padding-right:20px;
+}
+.float{
+	float:left;
+	height:100%;
+	width:8px;
+}
+.paragraph{
+	border: 10px;
+	border-top:2px;
+	width:600px;
+	right:120px;
+	line-height:2;
+	word-wrap: break-word;
 }
 .container-contact{
 	background:#ffffff;
@@ -129,17 +138,12 @@ h2{
 	position:relative;
 	left:0px;
 	width: 575px;
-	height:602px;
+	height:622px;
 	margin: -10px;
 	text-align:left;
 }
 .h2{
 	padding-left:30px;
-}
-.paragraph{
-	border: 10px;
-	border-top:2px;
-	right:10px;
 }
 .line{
 	border: 1px #dddddd solid;
@@ -151,16 +155,27 @@ h2{
 	padding-left: 30px;
 	padding right: 0px;
 }
+
 .form-sub{
 	width:100px;
 	height:30px;
 	background:#4aaaa5;
+	vertical-align: top;
+	font-weight: bold;
+	font-size: large;
+	color:#ffffff;
+}
+.form-sub:focus{
+	background:lightgray;
 }
 .input{
 	width: calc(100%);
     margin:0;
     height:30px;
     float:left;
+}
+.input:focus{
+	background:lightgray;
 }
 #message{
 	height:100px;
@@ -170,6 +185,9 @@ h2{
     height:200px;
     float:left;
 }
+#message:focus{
+	background: lightgray ;
+}
 .projects{
 	float:left;
 	position: relative;
@@ -177,7 +195,6 @@ h2{
 	width: 215px;
 	margin: 20px;
 	left:10px;
-	m
 }
 .projects img{
 	position:absolute;
@@ -188,13 +205,13 @@ h2{
 	position:absolute;
 	width:100%;
 	height:35px;
-	left:0;
-	bottom:5px;
+	left:10px;
+	bottom:20px;
 	background-color: #4aaaa5;;
 	text-align: center;
 	font-weight:normal;
 	color:#ffffff;
-	margin:0;
+	margin:-10px;
 }
 .h9{
 	position: absolute;
